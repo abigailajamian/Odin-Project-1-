@@ -1,1 +1,2 @@
-# Odin-Project-1-
+# Odin-Project-1- 
+First project, starting from scratch. 
