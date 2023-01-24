@@ -2,34 +2,53 @@ body{
     margin: 0;
     padding: 0;
 }
-.container1{
+.top{
     background-color: #1F2937 ;
-    height: 400px;
-    font-family:sans-serif;
+    font-family:"Verdana", sans-serif;
 }
-card {
-    background-color: #747474;
-    color: #F9FAF8;
+.header{
+   
+    display:flex;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
 }
 
 ul{
     list-style: none;
+    display: flex;   
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-right: auto;
+    margin-left: 150px ;
+}
+
+.navigation{
+    margin-right: 150px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
 }
 
 h1{
     font-size: 48px;
     font-weight: bolder; 
     color: #F9FAF8;
+    margin-bottom: -10px;
 }
 p,a{
     font-size: 18px;
     color: #e5e7eb ;
-}
-
-.logo{
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
 }
 
 button{
@@ -38,11 +57,29 @@ button{
     font-size: 15px;
     font-weight: bold;
     border: #3882f6;
-    padding: 10px;
+    padding: 7px;
     border-radius:10px;
+    margin-right: 350px;
+    margin-left: 0px;
 }
 
-.button{
-    margin-left: 10px;
-    margin-right: 10px;
+.left-side{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+.image{
+    background-color: #747474;
+    color: #F9FAF8;
+    padding: 100px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
 }
