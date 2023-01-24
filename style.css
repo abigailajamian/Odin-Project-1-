@@ -175,3 +175,13 @@ p,a{
     margin-left: -50px;
     margin-right: 200px;
  }
+
+ .container-4{
+    margin-top: auto;
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+
+ }
